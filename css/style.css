@@ -273,6 +273,7 @@ margin-bottom: 1.34em;
 .contact {
 	background: #F6F6F6;
 	padding: 6em 0em 2em 0em;
+	height: 200px;
 }
 .left-form,.right-form{
 	float:left;
@@ -330,13 +331,7 @@ textarea
 	float:right;
 	width: 25%;
 }
-.icon {
-	height: 28px;
-	width: 28px;
-	display: block;
-	float: left;
-	margin: 12px 0px 9px 9px;
-}
+
 .name input[type=text],.email input[type=email]
 {
 	width:75%;
@@ -345,44 +340,16 @@ textarea
 .user {
 	background: url(../images/user.png) no-repeat 0px 0px;
 }
-.mail {
-	background: url(../images/mail.png) no-repeat 0px 0px;
-	margin: 16px 0px 9px 9px;
-}
+
 .name
 {
 	float: left;
 	width:45%;
 	margin-right: 4%;
 }
-.email
-{
-	float:right;
-	width:45%;
-}
-.send
-{
-	margin: 3em 0em;
-	text-align: right;
-}
-.send a
-{
-	color:#fff;
-	background: #FC685C;
-	padding: 1em 3em;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-o-border-radius: 5px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.send a:hover
-{
-	background: #EB4334;
-}
+
+
+
 .right-form h4{
 	color:#CDCDCD;
 	font-size: 1em;
@@ -396,7 +363,7 @@ textarea
 }
 /* start soc_icons */
 
-.soc_icons h2{
+.soc_icons h4{
 	text-transform: uppercase;
 	font-size: 1.2em;
 	color: #c0c0c0;
@@ -406,13 +373,29 @@ textarea
 .soc_icons ul li{
 	margin:15px;
 }
+.contact_me{
+	position: relative;
+}
+.contact_list{
+	position: absolute;
+	left: 30%;
+	top: 90%;
+}
+.contact_list2{
+	position: absolute;
+	left: 60%;
+	top: 90%;
+	
+
+}
+
 .soc_icons ul li a{
 	opacity:0.8;
 	display: block;
-	padding: 10px;
+	padding: 11px;
 	background: #2e2e2e;
-	width: 24px;
-	height: 24px;
+	width: 26px;
+	height: 26px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -420,24 +403,27 @@ textarea
 	border-radius: 26px;
 	color:#929191;
 	font-weight: 600;
+
 }
 .soc_icons ul li a span{
 	margin-left: 60px;
 }
 .soc_icons ul li a.icon1{
-	background: #39579D url('../images/icon1.png') no-repeat 18px 12px;
+	background: #39579D;
+	position: relative;
 }
 .soc_icons ul li a.icon2{
-	background: #02B3E9 url('../images/icon2.png') no-repeat 12px 13px;
+	background: #02B3E9 url('../images/mail.png') no-repeat 12px 12px;
 }
 .soc_icons ul li a.icon3{
-	background: #D95333 url('../images/icon3.png') no-repeat 14px 12px;
+	background: #D95333;
+	position: relative;
 }
-.soc_icons ul li a.icon4{
-	background: #007BB6 url('../images/icon4.png') no-repeat 14px 12px;
+.blog{
+	position: absolute;left: -52px;top: 12px;
 }
-.soc_icons ul li a.icon5{
-	background: #FF0084 url('../images/icon5.png') no-repeat 12px 18px;
+.weibo{
+	position: absolute;left: -58px;top: 12px;
 }
 .soc_icons ul li a:hover{
 	zoom: 1;
@@ -491,6 +477,7 @@ textarea
 .footer a:hover {
 	color: #fff;
 }
+
 .soc_icons1 li
 {
 	float:left;
@@ -651,19 +638,16 @@ textarea
 	height: 20px;
 	}
 	.soc_icons ul li a.icon1 {
-	background: #39579D url('../images/icon1.png') no-repeat 16px 9px;
+	background: #39579D;
 	}
 	.soc_icons ul li a.icon2 {
 	background: #02B3E9 url('../images/icon2.png') no-repeat 11px 12px;
 	}
 	.soc_icons ul li a.icon3 {
-	background: #D95333 url('../images/icon3.png') no-repeat 13px 11px;
+	background: #D95333;
 	}
-	.soc_icons ul li a.icon4 {
-	background: #007BB6 url('../images/icon4.png') no-repeat 12px 8px;
-	}
-	.soc_icons ul li a.icon5 {
-	background: #FF0084 url('../images/icon5.png') no-repeat 11px 16px;
+	.soc_icons ul li a.icon3{
+		color: red;
 	}
 	.contact {
 	padding: 2em 0em;
